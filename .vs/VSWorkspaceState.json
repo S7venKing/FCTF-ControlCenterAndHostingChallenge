@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ChallengeManagementServer",
+    "\\ChallengeManagementServer\\K8sServerResponse",
+    "\\ChallengeManagementServer\\Middlewares",
+    "\\ControlCenterServer",
+    "\\ControlCenterServer\\obj\\Debug",
+    "\\ControlCenterServer\\obj\\Release",
+    "\\ControlCenterServer\\Utils",
+    "\\ResourceShared",
+    "\\ResourceShared\\Utils"
+  ],
+  "SelectedNode": "\\ControlCenterServer\\Controllers\\ChallengeController.cs",
+  "PreviewInSolutionExplorer": true
+}
