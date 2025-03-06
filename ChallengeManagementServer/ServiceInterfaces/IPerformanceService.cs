@@ -1,5 +1,5 @@
 ﻿using ChallengeManagementServer.K8sServerResponse.GetClusterStatisticResponseDTO;
-using ControlCenterServer.Models;
+using ResourceShared.Models;
 using ChallengeManagementServer.DTO.PerformanceStatDTO;
 using StackExchange.Redis;
 
@@ -18,5 +18,7 @@ namespace ChallengeManagementServer.ServiceInterfaces
         public Task<ClusterStatisticInfo> GetClusterCPUAndRAMUsage();
 
         public Task<List<PodStatisticInfo>> GetAllPodStatistic(IConnectionMultiplexer _connectionMultiplexer);
+
+        public Task<ClusterUsageByPercent> GetClusterUsageByPercent();
     }
 }
